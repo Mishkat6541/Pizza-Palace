@@ -1,0 +1,41 @@
+@font-face { font-family: Pizza; src: url('food-delight-font/FoodDelight-7OP7E.ttf'); } 
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to bottom, orange, red); /* Body background color */
+}
+
+
+.div1{
+
+    display : flex;
+    width: auto;
+    height: 100px;
+    justify-content: center;
+
+    width: 100%;
+
+}
+
+h1{
+    align-self: center;
+    font-family: "Pizza"; 
+    min-height: 75%;        
+    padding: 0px;
+    border: 0px;    /* Fallback to sans-serif if the custom font doesn't load */
+    font-size: 48px;
+}
+
+p{
+    background-color: red;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #000; /* Black color */
+    width: 75%; /* Width of the line */
+    margin: 20px auto; /* Center the line */
+}
